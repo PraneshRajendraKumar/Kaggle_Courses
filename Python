@@ -22,8 +22,6 @@ q2.check()
 
 
 
-
-
 Correct
 
 The most straightforward solution is to use a third variable to temporarily store one of the old values. e.g.:
@@ -35,3 +33,15 @@ If you've read lots of Python code, you might have seen the following trick to s
 
 a, b = b, a
 We'll demystify this bit of Python magic later when we talk about tuples.
+
+
+
+Operator	Name	Description
+a + b	Addition	Sum of a and b
+a - b	Subtraction	Difference of a and b
+a * b	Multiplication	Product of a and b
+a / b	True division	Quotient of a and b
+a // b	Floor division	Quotient of a and b, removing fractional parts
+a % b	Modulus	Integer remainder after division of a by b
+a ** b	Exponentiation	a raised to the power of b
+-a	Negation	The negative of a
